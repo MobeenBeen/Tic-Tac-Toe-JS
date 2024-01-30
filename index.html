@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Tic tac toe</h1>
+    <!-- <div class="main"> -->
+        <!-- <div class="newgame">neeee</div> -->
+        <button class="newgame" onclick="restartGame()" >New Game</button>
+        <span class="winner">WINNER</span>
+
+        
+
+    <!-- </div> -->
+    <div class="container">
+        
+        <div class="cont1">
+            <h1 class="all a2" id="one"> </h1>
+            <h1 class="all" id="two"> </h1>
+            <h1 class="all" id="three"> </h1>
+        </div>
+
+        <div class="cont2">
+            <h1 class="all a2" id="four"></h1>
+            <h1 class="all" id="five"></h1>
+            <h1 class="all" id="six"></h1>
+        </div>
+        <div class="cont3">
+            <h1 class="all a2" id="seven"></h1>
+            <h1 class="all" id="eight"></h1>
+            <h1 class="all" id="nine"></h1>
+        </div>
+
+
+    </div>
+    <div class="lowerContainer">
+        <span class="lowerSame active" id="player" > PLAYER (X)</span>
+        <span class="lowerSame"  >Tie</span>
+        <span class="lowerSame " id="computer">COMPUTER (O)</span>
+
+        </div>
+        <div class="lowest">
+            <span class="lowestSame" id="P1">0</span>
+            <span class="lowestSame" id="Tie">0</span>
+            <span class="lowestSame" id="P2">0</span>
+        </div>
+</body>
+<script src="script.js"></script>
+
+</html>

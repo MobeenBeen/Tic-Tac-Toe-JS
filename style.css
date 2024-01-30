@@ -1,0 +1,122 @@
+ 
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    text-align: center;
+}
+
+.all {
+    width: 100px;
+    height: 100px;
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 2px solid white;
+    margin: 0;
+    cursor: pointer;
+}
+
+#one {
+    border-left: none;
+    border-top: none;
+}
+
+#two {
+    border-left: none;
+}
+
+#three {
+    border-left: none;
+    border-bottom: none;
+}
+
+#four {
+    border-top: none;
+}
+
+#five {}
+
+#six {
+    border-bottom: none;
+}
+
+#seven {
+    border-top: none;
+    border-right: none;
+}
+
+#eight {
+    border-right: none;
+}
+
+#nine {
+    border-right: none;
+    border-bottom: none;
+}
+
+
+
+
+
+      
+.newgame{
+    position: relative;
+    top: 190px;
+    left: 163px;
+    padding: 16px;
+    border-radius: 20px;
+} 
+.winner{
+    position: absolute;
+    left: 600px;
+    top: 58px;
+}
+
+.lowerContainer {
+    position: absolute;
+    /* right: 0px; */
+    left: 455px;
+    top: 477px;
+} 
+
+.lowerSame{
+    padding-left: 35px;
+    cursor: pointer;
+    font-weight: lighter;
+}
+.active{
+font-weight: bolder;
+color: gold;
+}
+
+.newgame{
+    cursor: pointer;
+}
+
+.lowestSame{
+    padding-left: 78px;
+} 
+
+.lowest{
+    position: absolute;
+    /* right: 0px; */
+    left: 460px;
+    top: 520px; 
+ }  
+
+#player{
+    
+}
+
+
+
+
+
